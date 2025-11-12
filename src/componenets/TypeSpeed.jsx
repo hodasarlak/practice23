@@ -1,5 +1,5 @@
 import { Faker, fa, base } from "@faker-js/faker";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 const faker = new Faker({
   locale: [base, fa],
 });
